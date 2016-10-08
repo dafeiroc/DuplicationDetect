@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/DuplicationDection/!svn/ver/32/src/main/java/com/dafei/datasource
+END
+DownloadMetadataMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/DuplicationDection/!svn/ver/17/src/main/java/com/dafei/datasource/DownloadMetadataMain.java
+END
+Statistic.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/DuplicationDection/!svn/ver/45/src/main/java/com/dafei/datasource/Statistic.java
+END
+Dump2HiveMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DuplicationDection/!svn/ver/37/src/main/java/com/dafei/datasource/Dump2HiveMain.java
+END
+Knowledge_ElementDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/DuplicationDection/!svn/ver/17/src/main/java/com/dafei/datasource/Knowledge_ElementDao.java
+END
+TermDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DuplicationDection/!svn/ver/43/src/main/java/com/dafei/datasource/TermDao.java
+END
+Dump2HbaseMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DuplicationDection/!svn/ver/49/src/main/java/com/dafei/datasource/Dump2HbaseMain.java
+END
+HDFSClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DuplicationDection/!svn/ver/43/src/main/java/com/dafei/datasource/HDFSClient.java
+END
+DocumentProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DuplicationDection/!svn/ver/49/src/main/java/com/dafei/datasource/DocumentProcess.java
+END
+MetaDataDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/DuplicationDection/!svn/ver/17/src/main/java/com/dafei/datasource/MetaDataDao.java
+END
+Dump2HbaseByYottaBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/DuplicationDection/!svn/ver/26/src/main/java/com/dafei/datasource/Dump2HbaseByYottaBox.java
+END

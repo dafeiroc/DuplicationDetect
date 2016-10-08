@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/DuplicationDection/!svn/ver/32/src/main/java/com/dafei/mapred/simhash
+END
+SimHashMapRed.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DuplicationDection/!svn/ver/45/src/main/java/com/dafei/mapred/simhash/SimHashMapRed.java
+END
+SimHashReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DuplicationDection/!svn/ver/45/src/main/java/com/dafei/mapred/simhash/SimHashReducer.java
+END
+SimHashMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/DuplicationDection/!svn/ver/45/src/main/java/com/dafei/mapred/simhash/SimHashMapper.java
+END

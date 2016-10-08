@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/DuplicationDection/!svn/ver/33/src/main/java/com/dafei/web/search
+END
+UploadProgress.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DuplicationDection/!svn/ver/37/src/main/java/com/dafei/web/search/UploadProgress.java
+END
+DownloadServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DuplicationDection/!svn/ver/50/src/main/java/com/dafei/web/search/DownloadServlet.java
+END
+SampleServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DuplicationDection/!svn/ver/45/src/main/java/com/dafei/web/search/SampleServlet.java
+END
+ReadStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DuplicationDection/!svn/ver/37/src/main/java/com/dafei/web/search/ReadStatus.java
+END
+UploadStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DuplicationDection/!svn/ver/37/src/main/java/com/dafei/web/search/UploadStatus.java
+END

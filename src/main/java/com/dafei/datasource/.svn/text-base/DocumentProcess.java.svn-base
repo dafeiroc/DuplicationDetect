@@ -1,0 +1,120 @@
+package com.dafei.datasource;
+
+import com.dafei.bean.Term;
+import com.dafei.tools.CommonTool;
+import com.dafei.tools.Utils;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataOutputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IOUtils;
+
+import java.io.*;
+import java.net.URI;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: dafei
+ * Date: 11-3-11
+ * Time: 2:06pm
+ * To change this template use File | Settings | File Templates.
+ */
+
+/**
+ * caculate the text frequence(TF  NOTE! not sqrt(TF) just TF) of all file in every category
+ */
+public class DocumentProcess {
+
+    public static void main(String args[]) throws Exception {
+        DocumentProcess dp = new DocumentProcess();
+        Configuration conf = init();
+        // dp.copyAll("e:\\metadata_raw\\all", "e:\\metadata_raw\\all_10G", 10000);
+        dp.copyAll2HDFS("e:\\metadata_raw\\all", "hdfs://job-tracker:54310/user/xjtudlc/dafei/all_10G", conf, 1000);
+    }
+
+    private static Configuration init() {
+        Configuration conf = new Configuration();
+        conf.set("hadoop.job.ugi", "xjtudlc,xjtudlc");
+        return conf;
+    }
+
+    /**
+     * @param dir
+     * @param termSet
+     * @param maxlen
+     * @param tf_file
+     * @throws Exception
+     */
+    public void sendToFile(String dir, Set<Term> termSet, int maxlen, String tf_file) throws Exception {
+        for (String filepath : CommonTool.getFileList(dir)) {
+            System.out.println("processing filename:" + CommonTool.extractFileName(filepath) + "...");
+            Map<String, Integer> hm_itermCount = Utils.countTermFrequent(filepath, termSet, maxlen);
+            System.out.println("processing filename:" + CommonTool.extractFileName(filepath) + " finished.");
+            Utils.saveFreqToFile(hm_itermCount, termSet, tf_file);
+        }
+    }
+
+    public boolean copyFile2HDFS(String from, String to, Configuration conf) {
+        File fin = new File(from);
+        FileSystem fs = null;
+        try {
+            fs = FileSystem.get(URI.create("hdfs://job-tracker:54310"), conf);
+            FileInputStream fis = new FileInputStream(fin);
+            FSDataOutputStream fos = fs.create(new Path(to));
+            IOUtils.copyBytes(fis, fos, 4096, true);
+            return true;
+        } catch (FileNotFoundException fnfe) {
+            fnfe.printStackTrace();
+            return false;
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
+            return false;
+        }
+    }
+
+    public boolean copyFile(String from, String to) {
+        File fin = new File(from);
+        File fout = new File(to);
+        try {
+            BufferedInputStream bis = new BufferedInputStream(new FileInputStream(fin));
+            BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(fout));
+            int c;
+            while ((c = bis.read()) != -1) {
+                bos.write(c);
+            }
+            bis.close();
+            bos.close();
+            return true;
+        } catch (FileNotFoundException fnfe) {
+            return false;
+        } catch (IOException ioe) {
+            return false;
+        }
+    }
+
+    public void copyAll2HDFS(String from_dir, String to_dir, Configuration conf, int count) {
+        List<String> fileList = CommonTool.getFileList(from_dir);
+        for (String filePath : fileList) {
+            for (int i = 0; i < count; i++) {
+                String fileName = CommonTool.extractFileName(filePath);
+                String to = to_dir + "/" + i + "_" + fileName;
+                copyFile2HDFS(filePath, to, conf);
+            }
+        }
+    }
+
+    public void copyAll(String from_dir, String to_dir, int count) {
+        List<String> fileList = CommonTool.getFileList(from_dir);
+        for (String filePath : fileList) {
+            for (int i = 0; i < count; i++) {
+                String fileName = CommonTool.extractFileName(filePath);
+                String to = to_dir + "\\" + i + "_" + fileName;
+                copyFile(filePath, to);
+            }
+
+        }
+    }
+}

@@ -1,0 +1,34 @@
+10
+
+dir
+35
+http://mcm.xjtu.edu.cn/svn/DuplicationDection/src/main/java/com/dafei/algorithm
+http://mcm.xjtu.edu.cn/svn/DuplicationDection
+
+
+
+2011-04-08T07:13:36.660247Z
+32
+dafei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+902e2499-aef8-47de-932f-933b70dad01b
+
+simhash
+dir
+
+vsm
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/DuplicationDection/!svn/ver/32/src/main/java/com/dafei/config
+END
+db.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/DuplicationDection/!svn/ver/12/src/main/java/com/dafei/config/db.properties
+END
+ConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/DuplicationDection/!svn/ver/42/src/main/java/com/dafei/config/ConnectionFactory.java
+END
+DBConn.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/DuplicationDection/!svn/ver/17/src/main/java/com/dafei/config/DBConn.java
+END

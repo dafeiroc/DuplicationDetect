@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/DuplicationDection/!svn/ver/39/src/main/java/com/dafei/mapred/merge
+END
+HashSequenceMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/DuplicationDection/!svn/ver/45/src/main/java/com/dafei/mapred/merge/HashSequenceMapper.java
+END
+HashSequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DuplicationDection/!svn/ver/45/src/main/java/com/dafei/mapred/merge/HashSequence.java
+END
+WholeFileInputFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/DuplicationDection/!svn/ver/39/src/main/java/com/dafei/mapred/merge/WholeFileInputFormat.java
+END
+TFSequenceMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/DuplicationDection/!svn/ver/39/src/main/java/com/dafei/mapred/merge/TFSequenceMapper.java
+END
+TFSequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DuplicationDection/!svn/ver/45/src/main/java/com/dafei/mapred/merge/TFSequence.java
+END

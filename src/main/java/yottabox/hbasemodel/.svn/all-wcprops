@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel
+END
+StorageClusterVersionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/StorageClusterVersionModel.java
+END
+RowModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/RowModel.java
+END
+TableInfoModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/TableInfoModel.java
+END
+TableListModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/TableListModel.java
+END
+TableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/TableModel.java
+END
+ScannerModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/ScannerModel.java
+END
+TableSchemaModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/TableSchemaModel.java
+END
+CellSetModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/CellSetModel.java
+END
+StorageClusterStatusModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/StorageClusterStatusModel.java
+END
+CellModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/CellModel.java
+END
+TableRegionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/TableRegionModel.java
+END
+ColumnSchemaModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/ColumnSchemaModel.java
+END
+VersionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/DuplicationDection/!svn/ver/7/src/main/java/yottabox/hbasemodel/VersionModel.java
+END
